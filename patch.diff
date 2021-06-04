@@ -1,0 +1,9 @@
+diff --git a/routes/web.php b/routes/web.php
+index 11429ee..753bb15 100644
+--- a/routes/web.php
++++ b/routes/web.php
+@@ -84,3 +84,4 @@ Route::group(['prefix' => 'admin', 'namespace' => '\App\Http\Controllers', 'midd
+ //最新功能
+ //最新功能2
+ //dev
++//1111
