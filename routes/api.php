@@ -32,3 +32,10 @@ Route::get('/posts',function(){
     $articles = Article::get();
     return response()->json(['status' => 1, 'data' => $articles])->setEncodingOptions(JSON_UNESCAPED_UNICODE);
 });
+Route::get('/hello',function(){
+    $name ='world';
+return 'haha';
+return "Hello,$name";
+
+
+});
